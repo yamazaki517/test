@@ -133,6 +133,9 @@ a:hover{
     padding:80px 0;
     color:#5f5d60;
 }
+h3{
+    text-align:center;
+}
 .message-text{
     margin-bottom:50px;
 }
@@ -157,7 +160,7 @@ footer{
 footer .container img{
     width:124px;
 }
-.menu-icon{
+span .menu-icon{
     display:none;
 }
 .header-right{
