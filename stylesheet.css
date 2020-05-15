@@ -190,13 +190,16 @@ device setting
 
 /*スマホ*/
 @media (min-width: 1px) and (max-width:670px){
+    .header-left{
+        padding-left:17px;
+    }
     .header-right{
         display:none;
     }
     .menu-icon{
         display:block;
         font-size:25px;
-        padding:21px 0;
+        padding:21px 8px;
         float:right;
         color:white;
     }
