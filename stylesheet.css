@@ -242,11 +242,11 @@ device setting
     .header-right a{
         float:left;
         color:#fff;
-        padding-right:10px;
+        margin-left:30px;
     }
     .top-text{
         font-size:32px;
-    }
+    }s
     .lesson-text{
         font-size:20px;
     }
