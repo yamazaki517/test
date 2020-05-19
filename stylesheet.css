@@ -236,10 +236,13 @@ device setting
     .header-right a:hover{
         background-color:rgba(255,255,255,0.5);
     }
-    
+    .header-left{
+        padding:20px;
+    }
     .header-right a{
         float:left;
-        color:#fff
+        color:#fff;
+        padding-right:10px;
     }
     .top-text{
         font-size:32px;
