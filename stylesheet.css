@@ -203,8 +203,8 @@ footer .container img{
 .header-right{
     display:none;
 }
-header .menu-icon;{
-    display: block;
+header .menu-icon{
+    display: nones;
 }
 
 /* メディアクエリサンプル */
@@ -265,7 +265,7 @@ device setting
     .header-right{
         display:none;
     }
-    .menu-icon{
+    header .menu-icon{
         display:block;
         font-size:25px;
         padding:21px 8px;
