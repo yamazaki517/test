@@ -200,12 +200,13 @@ footer{
 footer .container img{
     width:124px;
 }
-span .menu-icon{
+header .menu-icon{
     display:none;
 }
 .header-right{
     display:none;
 }
+
 
 /* メディアクエリサンプル */
 /* ===============================
@@ -219,11 +220,13 @@ device setting
     .login:hover{
     background-color:rgba(255,255,255,0.5)
     }
+    .fa .menu-icon{
+    display:none;
+}
     .container{
         width:100%;
     }
     .header-right{
-        padding:10px 10px;
         float:right;
         display:block;
         color:#fff;
@@ -232,10 +235,11 @@ device setting
     }
     .header-right a:hover{
         background-color:rgba(255,255,255,0.5);
-        
     }
+    
     .header-right a{
         float:left;
+        color:#fff
     }
     .top-text{
         font-size:32px;
