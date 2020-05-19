@@ -203,7 +203,9 @@ footer .container img{
 .header-right{
     display:none;
 }
-
+header .menu-icon;{
+    display: block;
+}
 
 /* メディアクエリサンプル */
 /* ===============================
