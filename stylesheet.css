@@ -264,7 +264,7 @@ device setting
 
 /*スマホ*/
 @media (min-width: 1px) and (max-width:670px){
-    .menu-icon{
+    header .fa.fa-bars.menu-icon{
         display:block;
         font-size:25px;
         padding:21px;
