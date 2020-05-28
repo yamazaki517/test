@@ -222,6 +222,9 @@ device setting
     .menu-icon{
         display:none;
     }
+    .header-right{
+        color:#fff;
+    }
     
     
 
@@ -231,6 +234,11 @@ device setting
         display:block;
         font-size:25px;
         padding:21px;
+        color:#fff;
     }
+    .header-right{
+        display: none;
+    }
+    
     
 }
