@@ -138,7 +138,7 @@ header{
   float: right;
   margin-right: -25px;
 }
-header-right a {
+.header-right a {
   line-height: 65px;
   padding: 0 25px;
   color: white;
@@ -157,7 +157,7 @@ header-right a {
     display:block;
 }
 */
-header-right a:hover{
+.header-right a:hover{
     background-color:rgba(255,255,255,0.3);
 }
 
