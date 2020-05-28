@@ -227,7 +227,7 @@ footer img{
     color:#b3aeb5;
     padding-bottom: 30px;
 }
-header .fa .fa-bars .menu-icon{
+header .fa.fa-bars.menu-icon{
     display:none;
 }
 
@@ -237,7 +237,7 @@ device setting
 =============================== */
 /*タブレット*/
 @media (min-width: 1px) and (max-width:1000px){
-    header .fa .fa-bars .menu-icon{
+    header .fa.fa-bars.menu-icon{
         display:none;
     }
     .header-right{
