@@ -124,6 +124,7 @@ header{
     background-color:rgba(34,49,52,0.9);
     position:fixed;
     width:100%;
+    z-index: 10;
 }
 .header-left{
     float:left;
@@ -162,16 +163,55 @@ h2{
 .text{
     font-size:13px;
     color:#b3aeb5;
+    width:80%;
+    margin: auto;
+    text-align: center;
+    padding-top:15px;
 }
-
-
-
-
-
-
-
-
-
+.item{
+    position:relative;
+    text-align: center;
+}
+.item-text{
+    width:100%;
+    color:white;
+    position: absolute;
+    top:90px;
+}
+.message-wrapper{
+    padding:80px 0;
+    text-align: center;
+}
+h3{
+    color:#5f5d60;
+    
+}
+.message-text{
+    color:#5f5d60;
+    margin-bottom:50px; 
+}
+.play{
+    background-color: #5dca88;
+    padding:15px 40px;
+    box-shadow: 0 7px #1a7940;
+}
+footer{
+    width:100%;
+    padding:30px 0;
+    border-top:1px solid #eee;
+}
+footer img{
+    width:124px;
+    padding-top:30px;
+}
+.footer-text{
+    font-size: 12px;
+    color:#b3aeb5;
+    padding-bottom: 30px;
+}
+.menu-icon{
+    display:none;
+}
 
 /* メディアクエリサンプル */
 /* ===============================
@@ -179,9 +219,18 @@ device setting
 =============================== */
 /*タブレット*/
 @media (min-width: 1px) and (max-width:1000px){
+    .menu-icon{
+        display:none;
+    }
+    
     
 
 /*スマホ*/
 @media (min-width: 1px) and (max-width:670px){
+    .menu-icon{
+        display:block;
+        font-size:25px;
+        padding:21px;
+    }
     
 }
