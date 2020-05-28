@@ -142,6 +142,7 @@ header{
   line-height: 65px;
   padding: 0 25px;
   color: white;
+  float:left;
   display: block;
   transition: all 0.5s;
 }
@@ -251,6 +252,7 @@ device setting
         font-size:25px;
         padding:21px;
         color:#fff;
+        float:right;
     }
     .header-right{
         display: none;
