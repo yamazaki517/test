@@ -71,31 +71,40 @@ a {
 ここからCSSを書いていきましょう
 =============================== */
 .conteiner{
-    width:1170px;
+    max-width:1170px;
+    width:100%;
     margin:auto;
+    padding:0 15px;
 }
 .top-content{
     padding:180px 0 100px 0;
     background-image:url(https://prog-8.com/images/html/advanced/top.png);
     background-size:cover;
     color:#fff;
-    text-align: center;
 }
 h1{
     opacity:0.7;
     font-size:45px;
     font-weight:bold;
     letter-spacing: 5px;
+    text-align: center;
 }
 .top-contenttext{
     opacity:0.7;
-    padding-bottom:30px;
+    text-align: center;
+}
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
 }
 .btn{
     padding:8px 24px;
     opacity:0.7;
     border-radius: 4px;
     color:white;
+    display: inline-block;
+    text-align: center;
+    
 }
 .or{
     padding: 15px 0;
@@ -135,59 +144,45 @@ header{
     margin-top:20px;
 }
 .header-right {
-    float: right;
-    margin-right: -25px;
+  float: right;
+  margin-right: -25px;
 }
-.header-right a {
-    line-height: 65px;
-    padding: 0 25px;
-    color: white;
-    float:left;
-    display: block;
-    transition: all 0.5s;
+.header-right a{
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  float:left;
+  display: block;
+  transition: all 0.5s;
 }
-/*
-.login{
-    color:white;
-    float:right;
-    background-color: rgba(255,255,255,0.3);
-    padding:0 25px;
-    line-height: 65px;
-    transition: all 1s;
-    display:block;
-}
-*/
 .header-right a:hover{
     background-color:rgba(255,255,255,0.3);
 }
-
-
 .lesson-wrapper{
-    height:580px;
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
     background-color: #f7f7f7;
+    text-align: center;
 }
 h2{
-    text-align: center;
-    font-weight: normal;
     padding:80px 0 50px 0;
-    font-size:24px;
     color:#5f5d60;
+    font-weight: normal;
 }
 .lesson{
     width:25%;
     float:left;
 }
 .text{
-    font-size:13px;
-    color:#b3aeb5;
-    width:80%;
-    margin: auto;
-    text-align: center;
-    padding-top:15px;
+    width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 13px;
+  color: #b3aeb5;
 }
 .item{
     position:relative;
-    text-align: center;
 }
 .item-text{
     width:100%;
@@ -195,12 +190,16 @@ h2{
     position: absolute;
     top:90px;
 }
+.clear{
+    clear: both;
+}
 .message-wrapper{
     padding:80px 0;
     text-align: center;
 }
 h3{
     color:#5f5d60;
+    font-weight: normal;
     
 }
 .message-text{
@@ -242,8 +241,24 @@ device setting
     .header-right{
         color:#fff;
     }
+    h1{
+        font-size:32px;
+    }
+    h2{
+        font-size:20px;
+    }
+    .lesson{
+        width:50%;
+        margin: auto;
+    }
+    .text{
+        margin-bottom: 50px;
+    }
+    footer{
+        text-align: center;
+    }
     
-    
+} 
 
 /*スマホ*/
 @media (min-width: 1px) and (max-width:670px){
@@ -257,5 +272,27 @@ device setting
     .header-right{
         display: none;
     }
-    
+    h1{
+        font-size: 24px;
+        text-align: left;
+    }
+    .top-contenttext{
+        font-size:14px;
+        text-align: left;
+    }
+    .top-content .btn{
+        width:100%;
+        margin: auto;
+    }
+    .top-content .facebook{
+        margin-bottom:10px;
+    }
+    .lesson{
+        width:100%;
+        margin: auto;
+    }
+    .message-wrapper .btn{
+        width:100%;
+        margin:auto;
+    }
 }
