@@ -123,16 +123,30 @@ header{
     height:65px;
     background-color:rgba(34,49,52,0.9);
     position:fixed;
+    top:0;
     width:100%;
     z-index: 10;
 }
 .header-left{
     float:left;
-    padding:20px 0;
 }
 .header-left img{
     width:124px;
+    margin-top:20px;
 }
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+/*
 .login{
     color:white;
     float:right;
@@ -142,9 +156,12 @@ header{
     transition: all 1s;
     display:block;
 }
-.login:hover{
-    background-color:rgba(255,255,255,0.5);
+*/
+header-right a:hover{
+    background-color:rgba(255,255,255,0.3);
 }
+
+
 .lesson-wrapper{
     height:580px;
     background-color: #f7f7f7;
@@ -239,6 +256,5 @@ device setting
     .header-right{
         display: none;
     }
-    
     
 }
