@@ -133,6 +133,8 @@ header{
     background-color:rgba(34,49,52,0.9);
     position:fixed;
     top:0;
+    left: 0;
+    right: 0;
     width:100%;
     z-index: 10;
 }
@@ -225,7 +227,7 @@ footer img{
     color:#b3aeb5;
     padding-bottom: 30px;
 }
-.menu-icon{
+.fa fa-bars .menu-icon{
     display:none;
 }
 
@@ -235,7 +237,7 @@ device setting
 =============================== */
 /*タブレット*/
 @media (min-width: 1px) and (max-width:1000px){
-    .menu-icon{
+    .fa .fa-bars .menu-icon{
         display:none;
     }
     .header-right{
