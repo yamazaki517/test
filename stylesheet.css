@@ -135,16 +135,16 @@ header{
     margin-top:20px;
 }
 .header-right {
-  float: right;
-  margin-right: -25px;
+    float: right;
+    margin-right: -25px;
 }
 .header-right a {
-  line-height: 65px;
-  padding: 0 25px;
-  color: white;
-  float:left;
-  display: block;
-  transition: all 0.5s;
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    float:left;
+    display: block;
+    transition: all 0.5s;
 }
 /*
 .login{
