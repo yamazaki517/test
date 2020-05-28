@@ -237,9 +237,7 @@ device setting
 =============================== */
 /*タブレット*/
 @media (min-width: 1px) and (max-width:1000px){
-    header .fa.fa-bars.menu-icon{
-        display:none;
-    }
+    
     .header-right{
         color:#fff;
     }
